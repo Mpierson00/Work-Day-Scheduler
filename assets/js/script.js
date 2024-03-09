@@ -29,4 +29,29 @@ function createTimeBlock(hour, container) {
   container.append(timeBlock);
 }
 
-})
+})// Function to create time blocks for past, present, and future times
+function generateTimeBlocks() {
+  var container = $('.container-lg');
+  var currentHour = dayjs().hour();
+
+  // Clear the container
+  container.empty();
+
+  // Append past time blocks
+  for (var hour = 9; hour < currentHour; hour++) {
+    createTimeBlock(hour, container);
+    $('.time-block').last().addClass('past');
+  }
+
+  // Append present time block
+  if (currentHour >= 9 && currentHour <= 17) {
+    createTimeBlock(currentHour, container);
+    $('.time-block').last().addClass('present');
+  }
+
+  // Append future time blocks
+  for (var hour = currentHour + 1; hour <= 17; hour++) {
+    createTimeBlock(hour, container);
+    $('.time-block').last().addClass('future');
+  }
+}
