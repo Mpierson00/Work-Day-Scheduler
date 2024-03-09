@@ -1,59 +1,69 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: #f8f9fa; /* Light gray background */
 }
 
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+.container-lg {
+  max-width: 800px; /* Limit container width for better readability */
+  margin: 0 auto; /* Center container horizontally */
 }
 
-.description {
-  white-space: pre-wrap;
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.current-day {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #6c757d; /* Dark gray text */
 }
 
 .time-block {
-  border-radius: 15px;
-}
-
-.row {
-  border-top: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #dee2e6; /* Light gray border */
+  padding: 15px;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #212529; /* Dark text color */
 }
 
-.past {
-  background-color: #d3d3d3;
-  color: white;
-}
-
-.present {
-  background-color: #ff6961;
-  color: white;
-}
-
-.future {
-  background-color: #77dd77;
-  color: white;
+.description {
+  background-color: #f8f9fa; /* Light gray background */
+  border: none;
+  resize: none;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue button color */
+  color: #ffffff; /* White text color */
+  padding: 8px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+.saveBtn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
