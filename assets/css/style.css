@@ -6,7 +6,7 @@ body {
 
 .container-lg {
   max-width: 800px; /* Limit container width for better readability */
-  margin: 0 auto; /* Center container horizontally */
+  margin: 0 auto; 
 }
 
 .header {
