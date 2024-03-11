@@ -32,7 +32,7 @@ Workday Scheduler is a simple calendar application for scheduling your workday. 
 
 ## Installation
 
-1. Clone the repository: `git clone `
+1. Clone the repository: `git clone https://github.com/Mpierson00/Workday-Scheduler`
 2. Navigate to the project directory: `cd workday-scheduler`
 3. Open `index.html` in your preferred web browser.
 
@@ -64,3 +64,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+![Workday Scheduler](./assets/imgs/127.0.0.1_5501_Class-Project_WorkDayScheduler_index.html.png)
