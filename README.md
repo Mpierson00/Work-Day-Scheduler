@@ -1,7 +1,5 @@
 # Workday Scheduler
 
-![Workday Scheduler](./assets/imgs/127.0.0.1_5501_Class-Project_WorkDayScheduler_index.html.png)
-
 Workday Scheduler is a simple calendar application for scheduling your workday. It allows users to enter and save events for specific hours of the day and ensures that the saved events persist even after refreshing the page.
 
 ## Features
